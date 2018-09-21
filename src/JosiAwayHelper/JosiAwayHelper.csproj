@@ -2,10 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/6bd72948-e492-4ae3-8bee-dd49284a07ac/resourcegroups/JosiAwayHelper8793/providers/microsoft.insights/components/JosiAwayHelper</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/6bd72948-e492-4ae3-8bee-dd49284a07ac/resourcegroups/JosiAwayHelper8793/providers/microsoft.insights/components/JosiAwayHelper</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>
