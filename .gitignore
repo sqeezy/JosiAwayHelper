@@ -334,3 +334,6 @@ ASALocalRun/
 
 **/obj/**/*
 obj
+src/JosiAwayHelper/obj/JosiAwayHelper.csproj.nuget.cache
+src/JosiAwayHelper/obj/JosiAwayHelper.csproj.nuget.g.props
+src/JosiAwayHelper/obj/project.assets.json
